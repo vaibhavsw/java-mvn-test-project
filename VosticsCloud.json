@@ -1,0 +1,17 @@
+{
+	"projectKey":"vostics-cloud-a470",
+	"author":"Vaibhav Swarnkar <vaibhavconnected@gmail.com>",
+	"tag":"mvn-test",
+	"version":"1.1",
+	"from":"java-mvn",
+	"app":{
+		"env":{},
+		"cmd":[
+			"ls -la",
+			"mvn clean install",
+      "j"
+		],
+		"port":80,
+		"start":"sh -c java -jar target/*.jar"
+	}
+}
