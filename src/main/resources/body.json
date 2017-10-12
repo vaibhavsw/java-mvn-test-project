@@ -1,0 +1,29 @@
+{
+  "username":"George McGarth",
+  "userId":"GORGMCG",
+  "notes":{
+    "__rel":{
+      "relation":"oneToMany",
+      "embed":true,
+      "documentName":"notes"
+    },
+    "objects":[
+      {
+        "title":"Townhall metting",
+        "date":"March 20, 2015",
+        "remind":true,
+        "content":{
+          "__rel":{
+            "relation":"oneToOne",
+            "documentName":"content",
+            "embed":true
+          },
+          "objects":{
+            "content":"Collect presentaion from kathy for metting",
+            "tag":"urget"
+          }
+        }
+      }
+    ]
+  }
+}
