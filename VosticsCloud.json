@@ -8,8 +8,7 @@
 		"env":{},
 		"cmd":[
 			"ls -la",
-			"mvn clean install",
-      "j"
+			"mvn clean install"
 		],
 		"port":80,
 		"start":"java -jar target/*.jar"
