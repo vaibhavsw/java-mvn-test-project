@@ -12,6 +12,6 @@
       "j"
 		],
 		"port":80,
-		"start":"sh -c java -jar target/*.jar"
+		"start":"java -jar target/*.jar"
 	}
 }
